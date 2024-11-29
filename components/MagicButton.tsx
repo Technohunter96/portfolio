@@ -1,3 +1,5 @@
+"use client";
+
 const MagicButton = ({
   title,
   icon,

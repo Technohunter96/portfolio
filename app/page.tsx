@@ -1,3 +1,5 @@
+"use client";
+
 import Approach from "@/components/Approach";
 import Stack from "@/components/Stack";
 import Experince from "@/components/Experince";

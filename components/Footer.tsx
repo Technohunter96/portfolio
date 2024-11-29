@@ -1,3 +1,5 @@
+"use client";
+
 import { FaLocationArrow } from "react-icons/fa"
 import MagicButton from "./MagicButton"
 import { socialMedia } from "@/data"
