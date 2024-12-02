@@ -3,14 +3,21 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-import Lottie from "react-lottie";
-
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import {GlobeDemo} from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import dynamic from "next/dynamic";
+
+let Lottie;
+
+if (process.env.NODE_ENV === "development") {
+  Lottie = require("react-lottie").default;
+} else {
+  Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+}
 
 export const BentoGrid = ({
   className,

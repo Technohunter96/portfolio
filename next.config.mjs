@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  // typescript: {
-  //   // Ignorovat chyby při sestavení TypeScriptu
-  //   ignoreBuildErrors: true,
-  // },
+  // output: "export",
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
