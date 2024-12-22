@@ -120,7 +120,7 @@ export const navItems = [
       des: "Minimalist Dev Portfolio with 3D elements & beautiful animations ",
       img: "/portfolio.svg",
       iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/three.svg", "/framer.svg", "sentry.svg"],
-      link: "https://github.com/Technohunter96/support-desk-app",
+      link: "https://github.com/Technohunter96/portfolio",
       url: "/",
     },
   ];
