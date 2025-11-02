@@ -48,7 +48,7 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: 'Building an E-Commerce Platform with Next.js, React, TypeScript, and Prisma',
+    title: 'Full-Stack Streamlit Data Application in Keboola with CRUD Operations',
     description: 'The Inside Scoop',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -71,22 +71,31 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: 'ProStore',
+    des: 'A full featured Ecommerce website built with Next.js, TypeScript, PostgreSQL and Prisma.',
+    img: '/prostore.svg',
+    iconLists: [
+      '/re.svg',
+      'typescript.svg',
+      '/next.svg',
+      '/tail.svg',
+      'postgresql.svg',
+      '/prisma.svg',
+    ],
+    link: 'https://github.com/Technohunter96/ProStore',
+    url: 'https://pro-store-eight.vercel.app/',
+  },
+  {
+    id: 2,
     title: 'Property Pulse',
     des: 'Next.js app for listing and searching rental properties.',
     img: '/propertyPulse.svg',
-    iconLists: [
-      '/re.svg',
-      '/cloud.svg',
-      '/next.svg',
-      '/tail.svg',
-      '/mongo.svg',
-      '/mapbox.svg',
-    ],
+    iconLists: ['/re.svg', '/cloud.svg', '/next.svg', '/tail.svg', '/mongo.svg', '/mapbox.svg'],
     link: 'https://github.com/Technohunter96/property-pulse',
     url: 'https://property-pulse-teal.vercel.app/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'BookStore',
     des: 'Book database platform built with the MERN stack & Redux.',
     img: '/book.svg',
@@ -95,7 +104,7 @@ export const projects = [
     url: 'https://bookstore-ls6g.onrender.com/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'House Marketplace',
     des: 'Marketplace for houses build with React & Firebase v9.',
     img: '/house.svg',
@@ -104,7 +113,7 @@ export const projects = [
     url: 'https://house-marketplace-lemon-two.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Animated Apple Iphone 3D Website',
     des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
     img: '/p4.svg',
@@ -113,7 +122,7 @@ export const projects = [
     url: 'https://apple-website-lilac-two.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Support Desk App',
     des: 'Support ticket app built with the MERN stack',
     img: '/support.svg',
@@ -122,18 +131,11 @@ export const projects = [
     url: 'https://support-desk-multihunter.onrender.com/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Developer portfolio',
     des: 'Minimalist Dev Portfolio with 3D elements & beautiful animations ',
     img: '/portfolio.svg',
-    iconLists: [
-      '/re.svg',
-      '/next.svg',
-      '/tail.svg',
-      '/three.svg',
-      '/framer.svg',
-      'sentry.svg',
-    ],
+    iconLists: ['/re.svg', '/next.svg', '/tail.svg', '/three.svg', '/framer.svg', 'sentry.svg'],
     link: 'https://github.com/Technohunter96/portfolio',
     url: '/',
   },
@@ -182,6 +184,30 @@ export const companies = [
     img: '/ms.svg',
     nameImg: '/streamName.svg',
   },
+  {
+    id: 8,
+    name: 'Python',
+    img: '/python.svg',
+    nameImg: '/streamName.svg',
+  },
+  {
+    id: 9,
+    name: 'Streamlit',
+    img: '/streamlit.svg',
+    nameImg: '/streamName.svg',
+  },
+  {
+    id: 10,
+    name: 'Keboola',
+    img: '/keboola.svg',
+    nameImg: '/streamName.svg',
+  },
+  {
+    id: 10,
+    name: 'Snowflake',
+    img: '/snowflake.svg',
+    nameImg: '/streamName.svg',
+  },
 ];
 
 export const workExperience = [
@@ -198,6 +224,13 @@ export const workExperience = [
     desc: 'Designed and implemented intranet applications using Nintex Forms & Flows, Plumsail Forms, and Power Automate. Managed data integrations with SQL and PowerShell for seamless workflows.',
     className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
+  },
+  {
+    id: 4,
+    title: 'Data Engineer',
+    desc: 'Developing data-driven applications in Streamlit integrated with Keboola. Managing data pipelines, transformations, and automations across Snowflake environment.',
+    className: 'md:col-span-2',
+    thumbnail: '/exp3.svg',
   },
 ];
 
