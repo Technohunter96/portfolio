@@ -69,7 +69,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
+git clone https://github.com/Technohunter96/portfolio.git
+
 cd portfolio
 ```
 
